@@ -2,109 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo on My Portfolio</title>
-    <link>//localhost:1313/tags/demo/</link>
+    <link>http://localhost:1313/mywebsite/tags/demo/</link>
     <description>Recent content in Demo on My Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>E-Commerce API</title>
-      <link>//localhost:1313/projects/e-commerce-api/</link>
+      <link>http://localhost:1313/mywebsite/projects/e-commerce-api/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/e-commerce-api/</guid>
+      <guid>http://localhost:1313/mywebsite/projects/e-commerce-api/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Crypto Dashboard</title>
-      <link>//localhost:1313/projects/crypto-dashboard/</link>
+      <link>http://localhost:1313/mywebsite/projects/crypto-dashboard/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/crypto-dashboard/</guid>
+      <guid>http://localhost:1313/mywebsite/projects/crypto-dashboard/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Task Manager App</title>
-      <link>//localhost:1313/projects/task-manager-app/</link>
+      <link>http://localhost:1313/mywebsite/projects/task-manager-app/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/task-manager-app/</guid>
+      <guid>http://localhost:1313/mywebsite/projects/task-manager-app/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Social Bot</title>
-      <link>//localhost:1313/projects/social-bot/</link>
+      <link>http://localhost:1313/mywebsite/projects/social-bot/</link>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/social-bot/</guid>
+      <guid>http://localhost:1313/mywebsite/projects/social-bot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Travel UI Kit</title>
-      <link>//localhost:1313/projects/travel-ui-kit/</link>
+      <link>http://localhost:1313/mywebsite/projects/travel-ui-kit/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/travel-ui-kit/</guid>
+      <guid>http://localhost:1313/mywebsite/projects/travel-ui-kit/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hugo Modules Guide</title>
-      <link>//localhost:1313/tutorials/hugo-modules-guide/</link>
+      <link>http://localhost:1313/mywebsite/tutorials/hugo-modules-guide/</link>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tutorials/hugo-modules-guide/</guid>
+      <guid>http://localhost:1313/mywebsite/tutorials/hugo-modules-guide/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Docker Basics</title>
-      <link>//localhost:1313/tutorials/docker-basics/</link>
+      <link>http://localhost:1313/mywebsite/tutorials/docker-basics/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tutorials/docker-basics/</guid>
+      <guid>http://localhost:1313/mywebsite/tutorials/docker-basics/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>React Hooks 101</title>
-      <link>//localhost:1313/tutorials/react-hooks-101/</link>
+      <link>http://localhost:1313/mywebsite/tutorials/react-hooks-101/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tutorials/react-hooks-101/</guid>
+      <guid>http://localhost:1313/mywebsite/tutorials/react-hooks-101/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Python Scripts</title>
-      <link>//localhost:1313/tutorials/python-scripts/</link>
+      <link>http://localhost:1313/mywebsite/tutorials/python-scripts/</link>
       <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tutorials/python-scripts/</guid>
+      <guid>http://localhost:1313/mywebsite/tutorials/python-scripts/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AWS Lambda Setup</title>
-      <link>//localhost:1313/tutorials/aws-lambda-setup/</link>
+      <link>http://localhost:1313/mywebsite/tutorials/aws-lambda-setup/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tutorials/aws-lambda-setup/</guid>
+      <guid>http://localhost:1313/mywebsite/tutorials/aws-lambda-setup/</guid>
       <description></description>
       
     </item>

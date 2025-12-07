@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Database on My Portfolio</title>
-    <link>//localhost:1313/categories/database/</link>
+    <link>http://localhost:1313/mywebsite/categories/database/</link>
     <description>Recent content in Database on My Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Wed, 03 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/categories/database/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Travel UI Kit</title>
-      <link>//localhost:1313/projects/travel-ui-kit/</link>
+      <link>http://localhost:1313/mywebsite/projects/travel-ui-kit/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/travel-ui-kit/</guid>
+      <guid>http://localhost:1313/mywebsite/projects/travel-ui-kit/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AWS Lambda Setup</title>
-      <link>//localhost:1313/tutorials/aws-lambda-setup/</link>
+      <link>http://localhost:1313/mywebsite/tutorials/aws-lambda-setup/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tutorials/aws-lambda-setup/</guid>
+      <guid>http://localhost:1313/mywebsite/tutorials/aws-lambda-setup/</guid>
       <description></description>
       
     </item>

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Desenv Web on Meu Portfólio</title>
-    <link>//localhost:1313/pt-br/categories/desenv-web/</link>
+    <link>http://localhost:1313/mywebsite/pt-br/categories/desenv-web/</link>
     <description>Recent content in Desenv Web on Meu Portfólio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/pt-br/categories/desenv-web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/pt-br/categories/desenv-web/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>API de E-Commerce</title>
-      <link>//localhost:1313/pt-br/projects/e-commerce-api/</link>
+      <link>http://localhost:1313/mywebsite/pt-br/projects/e-commerce-api/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/pt-br/projects/e-commerce-api/</guid>
+      <guid>http://localhost:1313/mywebsite/pt-br/projects/e-commerce-api/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Guia Hugo Modules</title>
-      <link>//localhost:1313/pt-br/tutorials/hugo-modules-guide/</link>
+      <link>http://localhost:1313/mywebsite/pt-br/tutorials/hugo-modules-guide/</link>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/pt-br/tutorials/hugo-modules-guide/</guid>
+      <guid>http://localhost:1313/mywebsite/pt-br/tutorials/hugo-modules-guide/</guid>
       <description></description>
       
     </item>

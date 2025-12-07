@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projetos on Meu Portfólio</title>
-    <link>//localhost:1313/pt-br/projects/</link>
+    <link>http://localhost:1313/mywebsite/pt-br/projects/</link>
     <description>Recent content in Projetos on Meu Portfólio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/pt-br/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/pt-br/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>API de E-Commerce</title>
-      <link>//localhost:1313/pt-br/projects/e-commerce-api/</link>
+      <link>http://localhost:1313/mywebsite/pt-br/projects/e-commerce-api/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/pt-br/projects/e-commerce-api/</guid>
+      <guid>http://localhost:1313/mywebsite/pt-br/projects/e-commerce-api/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Dashboard Crypto</title>
-      <link>//localhost:1313/pt-br/projects/crypto-dashboard/</link>
+      <link>http://localhost:1313/mywebsite/pt-br/projects/crypto-dashboard/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/pt-br/projects/crypto-dashboard/</guid>
+      <guid>http://localhost:1313/mywebsite/pt-br/projects/crypto-dashboard/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>App de Tarefas</title>
-      <link>//localhost:1313/pt-br/projects/task-manager-app/</link>
+      <link>http://localhost:1313/mywebsite/pt-br/projects/task-manager-app/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/pt-br/projects/task-manager-app/</guid>
+      <guid>http://localhost:1313/mywebsite/pt-br/projects/task-manager-app/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bot Social</title>
-      <link>//localhost:1313/pt-br/projects/social-bot/</link>
+      <link>http://localhost:1313/mywebsite/pt-br/projects/social-bot/</link>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/pt-br/projects/social-bot/</guid>
+      <guid>http://localhost:1313/mywebsite/pt-br/projects/social-bot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Kit UI Viagem</title>
-      <link>//localhost:1313/pt-br/projects/travel-ui-kit/</link>
+      <link>http://localhost:1313/mywebsite/pt-br/projects/travel-ui-kit/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/pt-br/projects/travel-ui-kit/</guid>
+      <guid>http://localhost:1313/mywebsite/pt-br/projects/travel-ui-kit/</guid>
       <description></description>
       
     </item>
