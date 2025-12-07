@@ -5,8 +5,13 @@ on:
     branches:
       - main  # Set a branch to deploy
   pull_request:
-
+    
+permissions:
+  contents: read
+  pages: write  # <--- MUST HAVE THIS LINE
+  id-token: write
 jobs:
+  
   deploy:
     runs-on: ubuntu-22.04
     concurrency:
