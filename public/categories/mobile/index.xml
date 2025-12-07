@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on My Portfolio</title>
+    <link>//localhost:1313/categories/mobile/</link>
+    <description>Recent content in Mobile on My Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Task Manager App</title>
+      <link>//localhost:1313/projects/task-manager-app/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/task-manager-app/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>React Hooks 101</title>
+      <link>//localhost:1313/tutorials/react-hooks-101/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tutorials/react-hooks-101/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

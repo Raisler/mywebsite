@@ -1,0 +1,13 @@
+[en]
+  languageName = "English"
+  weight = 1
+  title = "My Portfolio"
+  params.isoCode = "en-US"
+  params.displayName = "EN"
+
+[pt-br]
+  languageName = "Português"
+  weight = 2
+  title = "Meu Portfólio"
+  params.isoCode = "pt-BR"
+  params.displayName = "PT"

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exemplo on Meu Portfólio</title>
+    <link>//localhost:1313/pt-br/tags/exemplo/</link>
+    <description>Recent content in Exemplo on Meu Portfólio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/pt-br/tags/exemplo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>API de E-Commerce</title>
+      <link>//localhost:1313/pt-br/projects/e-commerce-api/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/projects/e-commerce-api/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dashboard Crypto</title>
+      <link>//localhost:1313/pt-br/projects/crypto-dashboard/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/projects/crypto-dashboard/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>App de Tarefas</title>
+      <link>//localhost:1313/pt-br/projects/task-manager-app/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/projects/task-manager-app/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bot Social</title>
+      <link>//localhost:1313/pt-br/projects/social-bot/</link>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/projects/social-bot/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kit UI Viagem</title>
+      <link>//localhost:1313/pt-br/projects/travel-ui-kit/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/projects/travel-ui-kit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Guia Hugo Modules</title>
+      <link>//localhost:1313/pt-br/tutorials/hugo-modules-guide/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/tutorials/hugo-modules-guide/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Básico de Docker</title>
+      <link>//localhost:1313/pt-br/tutorials/docker-basics/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/tutorials/docker-basics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Intro React Hooks</title>
+      <link>//localhost:1313/pt-br/tutorials/react-hooks-101/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/tutorials/react-hooks-101/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Scripts Python</title>
+      <link>//localhost:1313/pt-br/tutorials/python-scripts/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/tutorials/python-scripts/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Configurando AWS Lambda</title>
+      <link>//localhost:1313/pt-br/tutorials/aws-lambda-setup/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/pt-br/tutorials/aws-lambda-setup/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
