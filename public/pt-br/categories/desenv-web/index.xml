@@ -2,32 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Desenv Web on Meu Portfólio</title>
-    <link>http://localhost:1313/mywebsite/pt-br/categories/desenv-web/</link>
+    <link>//localhost:1313/pt-br/categories/desenv-web/</link>
     <description>Recent content in Desenv Web on Meu Portfólio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/pt-br/categories/desenv-web/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/pt-br/categories/desenv-web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>API de E-Commerce</title>
-      <link>http://localhost:1313/mywebsite/pt-br/projects/e-commerce-api/</link>
+      <link>//localhost:1313/pt-br/projects/e-commerce-api/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/pt-br/projects/e-commerce-api/</guid>
-      <description></description>
-      
+      <guid>//localhost:1313/pt-br/projects/e-commerce-api/</guid>
+      <description>&lt;h2 id=&#34;visão-geral&#34;&gt;Visão Geral&lt;/h2&gt;&#xA;&lt;p&gt;Este é um post gerado em &lt;strong&gt;Português&lt;/strong&gt; para &lt;strong&gt;API de E-Commerce&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Categoria: Desenv Web&lt;/li&gt;&#xA;&lt;li&gt;Seção: projects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;&#xA;&lt;h3 id=&#34;funcionalidades&#34;&gt;Funcionalidades&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Suporte Multi-idioma.&lt;/li&gt;&#xA;&lt;li&gt;Carregamento rápido.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Guia Hugo Modules</title>
-      <link>http://localhost:1313/mywebsite/pt-br/tutorials/hugo-modules-guide/</link>
+      <link>//localhost:1313/pt-br/tutorials/hugo-modules-guide/</link>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/pt-br/tutorials/hugo-modules-guide/</guid>
-      <description></description>
-      
+      <guid>//localhost:1313/pt-br/tutorials/hugo-modules-guide/</guid>
+      <description>&lt;h2 id=&#34;visão-geral&#34;&gt;Visão Geral&lt;/h2&gt;&#xA;&lt;p&gt;Este é um post gerado em &lt;strong&gt;Português&lt;/strong&gt; para &lt;strong&gt;Guia Hugo Modules&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Categoria: Desenv Web&lt;/li&gt;&#xA;&lt;li&gt;Seção: tutorials&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;&#xA;&lt;h3 id=&#34;funcionalidades&#34;&gt;Funcionalidades&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Suporte Multi-idioma.&lt;/li&gt;&#xA;&lt;li&gt;Carregamento rápido.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
   </channel>
 </rss>

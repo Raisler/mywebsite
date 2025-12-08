@@ -2,32 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Database on My Portfolio</title>
-    <link>http://localhost:1313/mywebsite/categories/database/</link>
+    <link>//localhost:1313/categories/database/</link>
     <description>Recent content in Database on My Portfolio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Wed, 03 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/categories/database/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 03 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/database/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Travel UI Kit</title>
-      <link>http://localhost:1313/mywebsite/projects/travel-ui-kit/</link>
+      <link>//localhost:1313/projects/travel-ui-kit/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/projects/travel-ui-kit/</guid>
-      <description></description>
-      
+      <guid>//localhost:1313/projects/travel-ui-kit/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a generated &lt;strong&gt;English&lt;/strong&gt; post for &lt;strong&gt;Travel UI Kit&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Category: Database&lt;/li&gt;&#xA;&lt;li&gt;Section: projects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Multi-language support.&lt;/li&gt;&#xA;&lt;li&gt;Fast loading.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
-    <item>
-      <title>AWS Lambda Setup</title>
-      <link>http://localhost:1313/mywebsite/tutorials/aws-lambda-setup/</link>
-      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/tutorials/aws-lambda-setup/</guid>
-      <description></description>
-      
-    </item>
-    
   </channel>
 </rss>

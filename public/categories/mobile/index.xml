@@ -2,32 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile on My Portfolio</title>
-    <link>http://localhost:1313/mywebsite/categories/mobile/</link>
+    <link>//localhost:1313/categories/mobile/</link>
     <description>Recent content in Mobile on My Portfolio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Task Manager App</title>
-      <link>http://localhost:1313/mywebsite/projects/task-manager-app/</link>
+      <link>//localhost:1313/projects/task-manager-app/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/projects/task-manager-app/</guid>
-      <description></description>
-      
+      <guid>//localhost:1313/projects/task-manager-app/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a generated &lt;strong&gt;English&lt;/strong&gt; post for &lt;strong&gt;Task Manager App&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Category: Mobile&lt;/li&gt;&#xA;&lt;li&gt;Section: projects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Multi-language support.&lt;/li&gt;&#xA;&lt;li&gt;Fast loading.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>React Hooks 101</title>
-      <link>http://localhost:1313/mywebsite/tutorials/react-hooks-101/</link>
+      <link>//localhost:1313/tutorials/react-hooks-101/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/tutorials/react-hooks-101/</guid>
-      <description></description>
-      
+      <guid>//localhost:1313/tutorials/react-hooks-101/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a generated &lt;strong&gt;English&lt;/strong&gt; post for &lt;strong&gt;React Hooks 101&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Category: Mobile&lt;/li&gt;&#xA;&lt;li&gt;Section: tutorials&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Multi-language support.&lt;/li&gt;&#xA;&lt;li&gt;Fast loading.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
   </channel>
 </rss>

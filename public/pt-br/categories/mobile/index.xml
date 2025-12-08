@@ -2,32 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile on Meu Portfólio</title>
-    <link>http://localhost:1313/mywebsite/pt-br/categories/mobile/</link>
+    <link>//localhost:1313/pt-br/categories/mobile/</link>
     <description>Recent content in Mobile on Meu Portfólio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/pt-br/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/pt-br/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>App de Tarefas</title>
-      <link>http://localhost:1313/mywebsite/pt-br/projects/task-manager-app/</link>
+      <link>//localhost:1313/pt-br/projects/task-manager-app/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/pt-br/projects/task-manager-app/</guid>
-      <description></description>
-      
+      <guid>//localhost:1313/pt-br/projects/task-manager-app/</guid>
+      <description>&lt;h2 id=&#34;visão-geral&#34;&gt;Visão Geral&lt;/h2&gt;&#xA;&lt;p&gt;Este é um post gerado em &lt;strong&gt;Português&lt;/strong&gt; para &lt;strong&gt;App de Tarefas&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Categoria: Mobile&lt;/li&gt;&#xA;&lt;li&gt;Seção: projects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;&#xA;&lt;h3 id=&#34;funcionalidades&#34;&gt;Funcionalidades&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Suporte Multi-idioma.&lt;/li&gt;&#xA;&lt;li&gt;Carregamento rápido.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Intro React Hooks</title>
-      <link>http://localhost:1313/mywebsite/pt-br/tutorials/react-hooks-101/</link>
+      <link>//localhost:1313/pt-br/tutorials/react-hooks-101/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/pt-br/tutorials/react-hooks-101/</guid>
-      <description></description>
-      
+      <guid>//localhost:1313/pt-br/tutorials/react-hooks-101/</guid>
+      <description>&lt;h2 id=&#34;visão-geral&#34;&gt;Visão Geral&lt;/h2&gt;&#xA;&lt;p&gt;Este é um post gerado em &lt;strong&gt;Português&lt;/strong&gt; para &lt;strong&gt;Intro React Hooks&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Categoria: Mobile&lt;/li&gt;&#xA;&lt;li&gt;Seção: tutorials&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;&#xA;&lt;h3 id=&#34;funcionalidades&#34;&gt;Funcionalidades&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Suporte Multi-idioma.&lt;/li&gt;&#xA;&lt;li&gt;Carregamento rápido.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,328 @@
+---
+title: "Automatizando criação de vídeos curtos #1"
+date: 2025-11-28
+draft: false
+categories: ["Banco de Dados"]
+tags: ["Automação", "blowfish"]
+---
+
+# 🎥 Tutorial: Criando Clipes Virais de Vídeos Longos com Python e IA
+
+Este tutorial mostra como automatizar a criação de **vídeos curtos verticais (Shorts, Reels, TikToks)** a partir de um vídeo longo (MP4). Usaremos o **AssemblyAI** para transcrever o áudio e o **Gemini** para identificar os melhores momentos para cortes.
+
+> **Pré-requisitos:** Você deve ter o **FFmpeg** instalado no seu sistema e as bibliotecas Python listadas abaixo.
+
+## 1\. Configuração e Bibliotecas 🛠️
+
+Primeiro, instalamos e importamos as bibliotecas necessárias para manipulação de arquivos, chamadas de API e processamento de vídeo.
+
+### 1.1. Dependências
+
+```bash
+pip install google-genai requests
+```
+
+### 1.2. Importação de Bibliotecas
+
+```python
+import subprocess # Executar comandos FFmpeg
+import json       # Manipular respostas JSON
+import os         # Lidar com o sistema de arquivos
+import requests   # Fazer chamadas de API (AssemblyAI)
+import time       # Atrasos para polling da API
+from google import genai # Acessar a API do Gemini
+from datetime import timedelta # Calcular tempos de legenda (SRT)
+import re         # Sanitizar nomes de arquivos
+```
+
+-----
+
+## 2\. Chaves e Variáveis de Projeto 🔑
+
+Insira suas chaves de API e defina o caminho para o seu arquivo de vídeo e o nome do projeto.
+
+```python
+ASSEMBLY_API_KEY = "insira aqui" # Sua chave da AssemblyAI
+GEMINI_API = "insira aqui"      # Sua chave da Google Gemini
+
+video_path = "IA_Atila.mp4" # O vídeo que será cortado
+project_name = "IA_Atila"   # Nome da pasta de saída para os clipes
+```
+
+-----
+
+## 3\. Funções Essenciais ⚙️
+
+### 3.1. `run_command` (FFmpeg Helper)
+
+Os vídeos serão editados via terminal, o que eu particularmente acho bem legal, abaixo uma função simples para executar comandos de terminal, como o **FFmpeg**, e monitorar seu sucesso ou erro. 
+
+```python
+def run_command(command):
+    try:
+        # Run the command and wait for it to finish
+        result = subprocess.run(command, shell=True, text=True, capture_output=True)
+        
+        # Print the command's output and errors
+        print("STDOUT:\n", result.stdout)
+        print("STDERR:\n", result.stderr)
+
+        # Check if command was successful
+        if result.returncode == 0:
+            print("Command executed successfully.")
+        else:
+            print(f"Command failed with return code {result.returncode}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+```
+
+### 3.2. `extract_audio` (Conversão de Vídeo)
+
+Converte o arquivo de vídeo (`.mp4`) para um arquivo de áudio (`.mp3`) usando **FFmpeg**. O áudio é necessário para a transcrição.
+
+```python
+def extract_audio(input_path, output_path):
+    # Usa FFmpeg para extrair a faixa de áudio do vídeo e salva como MP3.
+    ffmpeg_command = f'ffmpeg -i "{input_path}" -map a -c:a libmp3lame -b:a 192k "{output_path}"'
+    run_command(ffmpeg_command)
+```
+
+### 3.3. Funções AssemblyAI (Transcrições) 📝
+Por quê AssemblyAI? alguns modelos (os melhores) ocupam muito recurso da sua máquina e este é uma api simples que custa apenas alguns centavos, sem falar que é o melhor modelo de transcrição que conheço.
+Conjunto de funções (`upload_file`, `request_transcript`, `poll_transcript`, `transcribe_file`) para enviar o arquivo de áudio para o **AssemblyAI** e obter a transcrição completa.
+
+> **Destaque:** O `config` é crucial, pois ativa o **`speaker_labels`** (rótulos de locutor) e obtém dados detalhados para o subtítulo no formato granular (palavra por palavra).
+
+```python
+config = {
+    "speaker_labels": True, # Essencial para identificar locutores
+    "format_text": True,    # Formatação de texto
+    "punctuate": True,      # Pontuação
+    # ... outras configurações ...
+}
+
+BASE_URL = "https://api.assemblyai.com"
+HEADERS = {
+    "authorization": ASSEMBLY_API_KEY,
+    "content-type": "application/json"
+}
+
+def upload_file(filepath):
+    """Uploads a local file to AssemblyAI and returns the upload URL."""
+    upload_endpoint = f"{BASE_URL}/v2/upload"
+    headers = {
+        "authorization": ASSEMBLY_API_KEY,
+        "content-type": "application/octet-stream"
+    }
+
+    with open(filepath, "rb") as f:
+        response = requests.post(upload_endpoint, headers=headers, data=f)
+    response.raise_for_status()
+    upload_url = response.json()["upload_url"]
+    return upload_url
+
+def request_transcript(audio_url, config=None):
+    """Requests a transcript for the given audio URL, returns the transcript ID."""
+    transcript_endpoint = f"{BASE_URL}/v2/transcript"
+    body = {"audio_url": audio_url}
+    if config:
+        body.update(config)
+    response = requests.post(transcript_endpoint, json=body, headers=HEADERS)
+    response.raise_for_status()
+    return response.json()["id"]
+
+def poll_transcript(transcript_id, interval=3):
+    """Polls the transcript endpoint until completed or error, then returns result."""
+    polling_endpoint = f"{BASE_URL}/v2/transcript/{transcript_id}"
+    while True:
+        resp = requests.get(polling_endpoint, headers=HEADERS)
+        resp.raise_for_status()
+        result = resp.json()
+
+        status = result["status"]
+        if status == "completed":
+            return result
+        elif status == "error":
+            raise RuntimeError(f"Transcription failed: {result.get('error')}")
+        else:
+            time.sleep(interval)
+
+config = {
+        "speaker_labels": True,
+        "format_text": True,
+        "punctuate": True,
+        "speech_model": "universal",
+        "language_detection": True
+    }
+
+def transcribe_file(filepath, config=config):
+    """Uploads a file, requests its transcription, and returns the transcript result."""
+    print("Uploading file...")
+    upload_url = upload_file(filepath)
+    print("Uploaded. URL:", upload_url)
+
+    print("Requesting transcription...")
+    transcript_id = request_transcript(upload_url, config=config)
+    print("Polling for result (ID:", transcript_id, ") ...")
+    transcript_result = poll_transcript(transcript_id)
+
+    return transcript_result
+```
+
+### 3.4. `prompt_task_definition` (Instruções para o Gemini) 🧠
+
+Esta string multi-linha contém as instruções detalhadas (o "prompt") para o modelo **Gemini**. Ele define a função da IA como um **"Extrator de Subtópicos Virais"** e exige que a saída seja um objeto **JSON** estruturado, você pode criar o seu prompt, mas acho que este meu promp é bem eficiente. Com a próxima função será mandado a transcrição em formato **TOON** para economizar tokens.
+```python
+prompt_task_definition = """
+# Extrator de Subtópicos Virais do YouTube
+
+Você é um produtor de conteúdo viral de elite com habilidades excepcionais na análise de transcrições do YouTube para identificar subtópicos de alto engajamento para reutilização. Sua especialidade reside em reconhecer momentos com potencial viral que podem ser extraídos para conteúdo curto e independente.
+
+## Seu Processo de Análise:
+
+1. **Reconhecimento de Conteúdo**: Identifique momentos emocionalmente ressonantes, revelações surpreendentes, dicas práticas, insights contraintuitivos e destaques da narrativa.
+
+2. **Conexão com o Público**: Concentre-se em segmentos que criem fortes reações emocionais (assombro, surpresa, humor, inspiração) ou que ofereçam alto valor prático.
+
+3. **Análise de Engajamento**: Priorize segmentos com ganchos claros, citações memoráveis, dinâmicas de conflito/resolução ou momentos importantes.
+
+4. **Avaliação de Compartilhamento**: Avalie quais subtópicos têm maior probabilidade de incentivar os espectadores a compartilhar com outras pessoas.
+
+## Seus Resultados:
+
+Para cada transcrição fornecida, extraia de 3 a 8 subtópicos com alto potencial viral no formato JSON com a seguinte estrutura:
+
+```json
+{
+"original_video": {
+"title": "Título original do vídeo do YouTube",
+"summary": "Breve resumo de 1 a 2 frases do conteúdo completo"
+},
+"viral_segments": [
+{
+"clip_title": "Título chamativo para este segmento",
+"hook": "O gancho de 1 frase que torna este clipe compartilhável",
+"description": "Breve descrição explicando por que este segmento tem potencial viral",
+"content_category": ["Tutorial", "Reação", "História", "Conselho", "Humor", etc.],
+"index_range": "há indíces (contagem de falas entre os locutores) no transcript, retorne o intervalo, por exemplo: 0-5"
+}
+]
+}
+```
+
+### 3.5. `create_prompt` (Formatação da Transcrição)
+
+Esta função recebe a transcrição bruta do AssemblyAI e a formata em um **formato legível e estruturado** (chamado TOON - Token-Oriented Object Notation) para ser anexado ao `prompt_task_definition`. Isso garante que o Gemini possa analisar a transcrição de forma eficaz, incluindo os **índices de falas** necessários.
+
+```python
+def create_prompt(data, prompt_task_definition):
+    count = 0
+    output_toon = f"index_range[{len(data["utterances"])}] {{List_index, Speaker, Text, start_time_ms, end_time_ms}}: \n"
+    for i in data["utterances"]:
+        entry = f'{count},"{i["speaker"]}","{i["text"]}",{i["start"]},{i["end"]} \n'
+        output_toon += entry
+        count += 1
+
+    prompt = prompt_task_definition + output_toon
+    return prompt
+```
+
+### 3.6. `get_viral_segments` (Chamada ao Gemini)
+
+Envia o prompt formatado para o modelo **Gemini 2.5 Flash**. O modelo analisa a transcrição e retorna os segmentos virais identificados no formato JSON solicitado.
+
+```python
+def get_viral_segments(prompt):
+    client = genai.Client(api_key=GEMINI_API)
+    response = client.models.generate_content(
+    model="gemini-2.5-flash",
+    contents=prompt,
+    )
+    # RETURN AS JSON
+    result = json.loads(response.text[7:-3])
+    return result
+```
+
+### 3.7. `create_srt_from_words` (Geração de Legendas) 💬
+
+Uma função crucial para criar um arquivo de legenda **SRT** (SubRip Subtitle) no formato granular, quebrando o texto em pequenas legendas (máx. 10 palavras ou 5 segundos), porém a função permite você editar o tamanho de quantas palavras por momento.
+
+> **Ponto-chave:** Esta função recebe um parâmetro `clip_start_offset_ms` que subtrai o tempo de início do corte de **todos** os timestamps das legendas. Isso garante que a legenda do clipe comece em **00:00:00,000**, o que é necessário para o corte de vídeo posterior.
+
+```python
+def create_srt_from_words(
+    transcription_data, 
+    output_filename, 
+    # ... parâmetros de quebra (max_words, max_duration_ms, etc.)
+    clip_start_offset_ms=0 # <--- Subtrai o tempo de início para 'zerar' o SRT
+):
+    # ... código da função ...
+    pass
+```
+
+### 3.8. `create_vertical_clip` (Corte e Edição de Vídeo) ✂️
+
+Usa **FFmpeg** para cortar o vídeo e transformá-lo em um clipe vertical (formato 9:16).
+
+```python
+def create_vertical_clip(input_file, output_file, subtitle_file, start_ms, end_ms):
+    # Converte os milissegundos (ms) de Gemini/AssemblyAI para segundos (s) para o FFmpeg
+    start_seconds = str(start_ms / 1000)
+    end_seconds = str(end_ms / 1000)
+
+    filter_graph = f"crop=ih*9/16:ih,subtitles={subtitle_file}" # Corta para 9:16 e aplica a legenda
+
+    command = [
+        "ffmpeg",
+        # ... -ss (início), -to (fim), -i (entrada), -vf (filtro), -c:a (codec de áudio), (saída)
+    ]
+    # Executa o FFmpeg para criar o clipe
+    # ... código da função ...
+```
+
+-----
+
+## 4\. O Fluxo de Trabalho Final 🚀
+
+1.  **Extrai o áudio** do vídeo (`extract_audio`).
+2.  **Gera a transcrição** completa do áudio (`transcribe_file`).
+3.  **Cria o prompt** com as instruções e a transcrição formatada (`create_prompt`).
+4.  **Obtém os segmentos virais** do Gemini (`get_viral_segments`).
+5.  **Para cada segmento viral:**
+      * Extrai os tempos de início e fim da transcrição.
+      * **Gera o arquivo SRT** com os tempos "zerados" para o clipe (`create_srt_from_words`).
+      * **Corta o vídeo original**, aplica o filtro vertical e a legenda, gerando o clipe final (`create_vertical_clip`).
+
+<!-- end list -->
+
+```python
+video_name = video_path.split(".")[0]
+audio_path = f"{video_name}.mp3"
+os.makedirs(f"./{project_name}", exist_ok=True)   
+os.makedirs(f"./{project_name}/subtitles_", exist_ok=True)   
+
+extract_audio(video_path, audio_path)
+
+
+```
+
+## 5\. Execução
+
+```python
+# Garante que as pastas de saída existam
+video_name = video_path.split(".")[0]
+audio_path = f"{video_name}.mp3"
+os.makedirs(f"./{project_name}", exist_ok=True)   
+os.makedirs(f"./{project_name}/subtitles_", exist_ok=True)   
+
+# Inicia o processo de extração e transcrição
+print("extracting audio")
+extract_audio(video_path, audio_path)
+# ... Segue com o resto das chamadas de API e criação de vídeos
+```
+
+Este processo transforma um único arquivo de vídeo longo em vários clipes curtos verticais, prontos para serem publicados, tudo de forma automática.
+
+-----
+
+Posso te ajudar a preencher o `prompt_task_definition` com regras mais específicas para o seu nicho de conteúdo, se desejar\!

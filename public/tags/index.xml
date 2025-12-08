@@ -2,32 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My Portfolio</title>
-    <link>http://localhost:1313/mywebsite/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on My Portfolio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blowfish</title>
-      <link>http://localhost:1313/mywebsite/tags/blowfish/</link>
+      <link>//localhost:1313/tags/blowfish/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/tags/blowfish/</guid>
+      <guid>//localhost:1313/tags/blowfish/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Demo</title>
-      <link>http://localhost:1313/mywebsite/tags/demo/</link>
+      <link>//localhost:1313/tags/demo/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/tags/demo/</guid>
+      <guid>//localhost:1313/tags/demo/</guid>
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>

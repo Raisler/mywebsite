@@ -2,62 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Meu Portfólio</title>
-    <link>http://localhost:1313/mywebsite/pt-br/categories/</link>
+    <link>//localhost:1313/pt-br/categories/</link>
     <description>Recent content in Categories on Meu Portfólio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/mywebsite/pt-br/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/pt-br/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Desenv Web</title>
-      <link>http://localhost:1313/mywebsite/pt-br/categories/desenv-web/</link>
+      <link>//localhost:1313/pt-br/categories/desenv-web/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/pt-br/categories/desenv-web/</guid>
+      <guid>//localhost:1313/pt-br/categories/desenv-web/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>DevOps</title>
-      <link>http://localhost:1313/mywebsite/pt-br/categories/devops/</link>
+      <link>//localhost:1313/pt-br/categories/devops/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/pt-br/categories/devops/</guid>
+      <guid>//localhost:1313/pt-br/categories/devops/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Mobile</title>
-      <link>http://localhost:1313/mywebsite/pt-br/categories/mobile/</link>
+      <link>//localhost:1313/pt-br/categories/mobile/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/pt-br/categories/mobile/</guid>
+      <guid>//localhost:1313/pt-br/categories/mobile/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Design UI</title>
-      <link>http://localhost:1313/mywebsite/pt-br/categories/design-ui/</link>
+      <link>//localhost:1313/pt-br/categories/design-ui/</link>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/pt-br/categories/design-ui/</guid>
+      <guid>//localhost:1313/pt-br/categories/design-ui/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Banco De Dados</title>
-      <link>http://localhost:1313/mywebsite/pt-br/categories/banco-de-dados/</link>
+      <link>//localhost:1313/pt-br/categories/banco-de-dados/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mywebsite/pt-br/categories/banco-de-dados/</guid>
+      <guid>//localhost:1313/pt-br/categories/banco-de-dados/</guid>
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>

@@ -1,213 +1,221 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
   <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/projects/e-commerce-api/</loc>
+    <loc>//localhost:1313/pt-br/projects/e-commerce-api/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/projects/e-commerce-api/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/projects/e-commerce-api/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/projects/e-commerce-api/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/projects/e-commerce-api/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/tags/blowfish/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/blowfish/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/projects/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/tags/blowfish/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/categories/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/projects/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/projects/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/projects/crypto-dashboard/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/categories/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/categories/desenv-web/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/pt-br/tags/exemplo/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/pt-br/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/projects/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/projects/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/tags/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/projects/crypto-dashboard/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/projects/crypto-dashboard/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/projects/crypto-dashboard/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/projects/crypto-dashboard/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/projects/task-manager-app/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/projects/crypto-dashboard/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/categories/devops/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/devops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/categories/devops/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/projects/task-manager-app/</loc>
     <lastmod>2025-12-05T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/projects/task-manager-app/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/projects/task-manager-app/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/projects/task-manager-app/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/projects/social-bot/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/projects/task-manager-app/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/categories/mobile/</loc>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/mobile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/categories/mobile/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/projects/social-bot/</loc>
     <lastmod>2025-12-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/projects/social-bot/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/projects/social-bot/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/projects/social-bot/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/projects/travel-ui-kit/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/projects/social-bot/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/categories/design-ui/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/pt-br/categories/banco-de-dados/</loc>
     <lastmod>2025-12-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/pt-br/projects/travel-ui-kit/</loc>
+    <lastmod>2025-12-03T00:00:00+00:00</lastmod>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/projects/travel-ui-kit/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/projects/travel-ui-kit/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/projects/travel-ui-kit/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/tutorials/hugo-modules-guide/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/projects/travel-ui-kit/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/tutorials/hugo-modules-guide/</loc>
     <lastmod>2025-12-02T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/tutorials/hugo-modules-guide/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/tutorials/hugo-modules-guide/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/tutorials/</loc>
+  </url><url>
+    <loc>//localhost:1313/pt-br/tutorials/</loc>
     <lastmod>2025-12-02T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/tutorials/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tutorials/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/tutorials/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/tutorials/docker-basics/</loc>
-    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/tutorials/docker-basics/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/tutorials/docker-basics/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/tutorials/react-hooks-101/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/tutorials/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/tutorials/react-hooks-101/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/tutorials/react-hooks-101/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tutorials/react-hooks-101/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/tutorials/react-hooks-101/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/tutorials/python-scripts/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/tutorials/react-hooks-101/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/tutorials/python-scripts/</loc>
     <lastmod>2025-11-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/tutorials/python-scripts/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tutorials/python-scripts/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/tutorials/python-scripts/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/mywebsite/pt-br/tutorials/aws-lambda-setup/</loc>
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/tutorials/python-scripts/"
+                />
+  </url><url>
+    <loc>//localhost:1313/pt-br/tags/automa%C3%A7%C3%A3o/</loc>
     <lastmod>2025-11-28T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/mywebsite/tutorials/aws-lambda-setup/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="pt-br"
-      href="http://localhost:1313/mywebsite/pt-br/tutorials/aws-lambda-setup/"
-    />
+  </url><url>
+    <loc>//localhost:1313/pt-br/tutorials/autoclips_tutorial_1/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on My Portfolio</title>
+    <link>http://localhost:1313/en/tutorials/</link>
+    <description>Recent content in Tutorials on My Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo Modules Guide</title>
+      <link>http://localhost:1313/en/tutorials/hugo-modules-guide/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/tutorials/hugo-modules-guide/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Docker Basics</title>
+      <link>http://localhost:1313/en/tutorials/docker-basics/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/tutorials/docker-basics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>React Hooks 101</title>
+      <link>http://localhost:1313/en/tutorials/react-hooks-101/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/tutorials/react-hooks-101/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python Scripts</title>
+      <link>http://localhost:1313/en/tutorials/python-scripts/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/tutorials/python-scripts/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AWS Lambda Setup</title>
+      <link>http://localhost:1313/en/tutorials/aws-lambda-setup/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/tutorials/aws-lambda-setup/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
