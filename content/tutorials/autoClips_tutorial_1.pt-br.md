@@ -3,7 +3,7 @@ title: "Automatizando criação de vídeos curtos #1"
 date: 2025-11-28
 draft: false
 categories: ["Banco de Dados"]
-tags: ["Automação", "blowfish"]
+tags: ["Automação", "LLM", "IA Generativa"]
 ---
 
 # 🎥 Tutorial: Criando Clipes Virais de Vídeos Longos com Python e IA
@@ -284,6 +284,8 @@ def create_vertical_clip(input_file, output_file, subtitle_file, start_ms, end_m
 
 ## 4\. O Fluxo de Trabalho Final 🚀
 
+
+
 1.  **Extrai o áudio** do vídeo (`extract_audio`).
 2.  **Gera a transcrição** completa do áudio (`transcribe_file`).
 3.  **Cria o prompt** com as instruções e a transcrição formatada (`create_prompt`).
@@ -296,6 +298,7 @@ def create_vertical_clip(input_file, output_file, subtitle_file, start_ms, end_m
 <!-- end list -->
 
 ```python
+
 video_name = video_path.split(".")[0]
 audio_path = f"{video_name}.mp3"
 os.makedirs(f"./{project_name}", exist_ok=True)   
@@ -322,7 +325,3 @@ extract_audio(video_path, audio_path)
 ```
 
 Este processo transforma um único arquivo de vídeo longo em vários clipes curtos verticais, prontos para serem publicados, tudo de forma automática.
-
------
-
-Posso te ajudar a preencher o `prompt_task_definition` com regras mais específicas para o seu nicho de conteúdo, se desejar\!

@@ -7,57 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>E-Commerce API</title>
-      <link>http://localhost:1313/en/projects/e-commerce-api/</link>
-      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en/projects/e-commerce-api/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Crypto Dashboard</title>
-      <link>http://localhost:1313/en/projects/crypto-dashboard/</link>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en/projects/crypto-dashboard/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Task Manager App</title>
-      <link>http://localhost:1313/en/projects/task-manager-app/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en/projects/task-manager-app/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Social Bot</title>
-      <link>http://localhost:1313/en/projects/social-bot/</link>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en/projects/social-bot/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Travel UI Kit</title>
-      <link>http://localhost:1313/en/projects/travel-ui-kit/</link>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en/projects/travel-ui-kit/</guid>
-      <description></description>
-      
-    </item>
+    <atom:link href="http://localhost:1313/en/projects/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

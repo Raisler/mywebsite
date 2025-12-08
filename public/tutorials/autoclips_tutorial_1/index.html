@@ -22,7 +22,7 @@
   
   
   
-    <meta name="keywords" content="Automação,blowfish,">
+    <meta name="keywords" content="Automação,LLM,IA Generativa,">
   
   
   
@@ -43,7 +43,8 @@
     <meta property="article:published_time" content="2025-11-28T00:00:00+00:00">
     <meta property="article:modified_time" content="2025-11-28T00:00:00+00:00">
     <meta property="article:tag" content="Automação">
-    <meta property="article:tag" content="Blowfish">
+    <meta property="article:tag" content="LLM">
+    <meta property="article:tag" content="IA Generativa">
 
   
   <meta name="twitter:card" content="summary">
@@ -210,10 +211,10 @@
     
     "dateModified": "2025-11-28T00:00:00\u002b00:00",
     
-    "keywords": ["Automação","blowfish"],
+    "keywords": ["Automação","LLM","IA Generativa"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1538"
+    "wordCount": "1519"
   }]
   </script>
 
@@ -521,8 +522,6 @@
   
 
   
-    
-  
 
   
 
@@ -548,7 +547,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-11-28T00:00:00&#43;00:00">28 de novembro de 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1538 palavras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tempo de leitura">8 minutos</span>
+      <span>1519 palavras</span><span class="px-2 text-primary-500">&middot;</span><span title="Tempo de leitura">8 minutos</span>
     
 
     
@@ -969,7 +968,8 @@ Conjunto de funções (<code>upload_file</code>, <code>request_transcript</code>
 </li>
 </ol>
 <!-- end list -->
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">video_name</span> <span class="o">=</span> <span class="n">video_path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34;.&#34;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">video_name</span> <span class="o">=</span> <span class="n">video_path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34;.&#34;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">audio_path</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&#34;</span><span class="si">{</span><span class="n">video_name</span><span class="si">}</span><span class="s2">.mp3&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;./</span><span class="si">{</span><span class="n">project_name</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>   
 </span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;./</span><span class="si">{</span><span class="n">project_name</span><span class="si">}</span><span class="s2">/subtitles_&#34;</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>   
@@ -996,8 +996,6 @@ Conjunto de funções (<code>upload_file</code>, <code>request_transcript</code>
 </span></span><span class="line"><span class="cl"><span class="n">extract_audio</span><span class="p">(</span><span class="n">video_path</span><span class="p">,</span> <span class="n">audio_path</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="c1"># ... Segue com o resto das chamadas de API e criação de vídeos</span>
 </span></span></code></pre></div><p>Este processo transforma um único arquivo de vídeo longo em vários clipes curtos verticais, prontos para serem publicados, tudo de forma automática.</p>
-<hr>
-<p>Posso te ajudar a preencher o <code>prompt_task_definition</code> com regras mais específicas para o seu nicho de conteúdo, se desejar!</p>
 
           
           
@@ -1033,34 +1031,6 @@ Conjunto de funções (<code>upload_file</code>, <code>request_transcript</code>
     
     <footer class="pt-8 max-w-prose print:hidden">
       
-  
-    
-    
-    
-    <div class="pt-8">
-      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
-      <div class="flex justify-between pt-3">
-        <span class="flex flex-col">
-          
-        </span>
-        <span class="flex flex-col items-end">
-          
-            <a
-              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/tutorials/python-scripts/">
-              <span class="leading-6">
-                Scripts Python&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
-              </span>
-            </a>
-            
-              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2025-11-29T00:00:00&#43;00:00">29 de novembro de 2025</time>
-              </span>
-            
-          
-        </span>
-      </div>
-    </div>
   
 
 

@@ -9,7 +9,7 @@ menu:
     params:
       icon: "folder"
 cascade:
-  showDate: true
+  showDate: false
   showAuthor: false
 ---
 Bem-vindo à seção de Tutoriais.

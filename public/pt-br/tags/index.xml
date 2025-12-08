@@ -2,32 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Meu Portfólio</title>
-    <link>//localhost:1313/pt-br/tags/</link>
+    <link>http://localhost:1313/pt-br/tags/</link>
     <description>Recent content in Tags on Meu Portfólio</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/pt-br/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blowfish</title>
-      <link>//localhost:1313/pt-br/tags/blowfish/</link>
-      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/pt-br/tags/blowfish/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Exemplo</title>
-      <link>//localhost:1313/pt-br/tags/exemplo/</link>
-      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/pt-br/tags/exemplo/</guid>
-      <description></description>
-    </item>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Automação</title>
-      <link>//localhost:1313/pt-br/tags/automa%C3%A7%C3%A3o/</link>
+      <link>http://localhost:1313/pt-br/tags/automa%C3%A7%C3%A3o/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/pt-br/tags/automa%C3%A7%C3%A3o/</guid>
+      
+      <guid>http://localhost:1313/pt-br/tags/automa%C3%A7%C3%A3o/</guid>
       <description></description>
+      
     </item>
+    
+    <item>
+      <title>IA Generativa</title>
+      <link>http://localhost:1313/pt-br/tags/ia-generativa/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/tags/ia-generativa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LLM</title>
+      <link>http://localhost:1313/pt-br/tags/llm/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/tags/llm/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
